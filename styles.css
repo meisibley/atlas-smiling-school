@@ -3,6 +3,7 @@
   --purple: #C271FF;
   --small: 12px;
   --ms: 13px;
+  --large: 64px;
   --xxxlarge: 120px;
 }
 
@@ -56,7 +57,7 @@ header .container {
   flex-wrap: wrap;
 }
 
-nav {
+header nav {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -64,9 +65,20 @@ nav {
   position: relative;
 }
 
+.smilelogo {
+  display: flex;
+}
+
+.smile {
+  width: 3.4rem;
+  height: 2.5rem;
+  margin: 1rem;
+}
+
 .logo {
-  width: 10rem;
-  height: auto;
+  width: 11rem;
+  height: 2.7rem;
+  margin: 1rem 0rem 1rem 0rem;
 }
 
 #hamburger {
@@ -102,15 +114,9 @@ nav {
 
 .banner-text h1 {
   position: relative;
-  /* font-family: thinFont;
-  text-align: center; */
   font-size: var(--xxxlarge);
   font-style: normal;
   font-weight: 700;
-  /* line-height: normal;
-  align-items: center;
-  margin-top: 220px;
-  margin-bottom: 0px; */
 }
 
 .banner-text p {
@@ -640,11 +646,27 @@ footer p {
   margin-top: 50px;
 }
 
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
   header {background-position: 42% 50%;}
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 880px) {
+  header {background-position: 43% 50%;}
+
+  .banner-text {
+    width: 100%;
+    margin: 14rem auto 0 auto;
+  }
+
+  .banner-text h1 {
+    position: relative;
+    font-size: var(--xxxlarge);
+    font-style: normal;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 660px) {
   header {background-position: 44% 50%;}
 
   header .container nav {
@@ -652,9 +674,21 @@ footer p {
     align-items: center;
   }
 
+  .smilelogo {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .smile {
+    width: 2rem;
+    height: 1.5rem;
+    margin: 0.5rem 0 0 3rem;
+  }
+
   .logo {
-    width: 50%;
-    height: auto;
+    width: 7rem;
+    height: 1.7rem;
+    margin: 1rem;
   }
 
   .menu {
@@ -663,7 +697,7 @@ footer p {
     width: 100%;
     text-align: center;
     font-weight: bold;
-    font-size: var(--ms);
+    font-size: var(--small);
     margin: 1rem auto;
   }
 
@@ -726,5 +760,12 @@ footer p {
   .banner-text {
     width: 100%;
     margin: 14rem auto 0 auto;
+  }
+
+  .banner-text h1 {
+    position: relative;
+    font-size: var(--large);
+    font-style: normal;
+    font-weight: 700;
   }
 }
