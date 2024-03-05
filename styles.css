@@ -252,7 +252,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: thinFont;
+  font-family: regularFont;
   width: 255px;
   height: 154px;
   background: url('./images/tutor1.png');
@@ -306,7 +306,7 @@ button {
 
 .video-div h2 {
   color: #071629;
-  font-family: thinFont;
+  font-family: regularFont;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -320,7 +320,7 @@ button {
 
 .video-div p {
   color: rgba(7, 22, 41, 0.50);
-  font-family: thinFont;
+  font-family: regularFont;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -347,7 +347,7 @@ button {
 
 #smallImage h3 {
   color: #C271FF;
-  font-family: thinFont;
+  font-family: regularFont;
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
@@ -380,7 +380,7 @@ button {
 .member {
   display: flex;
   background-color: #071629;
-  font-family: thinFont;
+  font-family: regularFont;
   width: 100%;
   height: 502px;
   flex-direction: column;
@@ -390,7 +390,7 @@ button {
 
 .member h1 {
   color: #FFF;
-  font-family: thinFont;
+  font-family: regularFont;
   font-size: 32px;
   font-style: normal;
   font-weight: 300;
@@ -412,7 +412,7 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: thinFont;
+  font-family: regularFont;
 }
 
 .membership img {
@@ -433,7 +433,7 @@ button {
   line-height: 26px; /* 144.444% */
   margin-top: 20px;
   margin-bottom: 0px;
-  font-family: thinFont;
+  font-family: regularFont;
 }
 
 .membership p {
@@ -486,7 +486,7 @@ button {
 }
 
 .faq-qna {
-  font-family: thinFont;
+  font-family: regularFont;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -513,7 +513,7 @@ button {
 .block h2 {
   color: #071629;
   font-size: 16px;
-  font-family: thinFont;
+  font-family: regularFont;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -525,7 +525,7 @@ button {
   color: rgba(7, 22, 41, 0.50);
   width: 330px;
   font-size: 14px;
-  font-family: thinFont;
+  font-family: regularFont;
   font-style: normal;
   font-weight: 400;
   line-height: 21px;
@@ -558,7 +558,7 @@ footer {
 
 footer p {
   color: #FFF;
-  font-family: thinFont;
+  font-family: regularFont;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
