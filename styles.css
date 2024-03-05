@@ -218,7 +218,7 @@ button {
 .videos h1 {
   color: #071629;
   text-align: center;
-  font-family: thinFont;
+  font-family: regularFont;
   font-size: 32px;
   font-style: normal;
   font-weight: 300;
@@ -775,7 +775,7 @@ footer p {
   background-color: #C271FF;
   background-position: 50% 50%;
   width: 100%;
-  height: 200%;
+  height: 150%;
   background-size: cover;
 }
 
@@ -839,6 +839,7 @@ footer p {
   background-color: #C271FF;
   width: 100%;
   height: 350px;
+  background-size: cover;
   justify-content: center;
 }
 

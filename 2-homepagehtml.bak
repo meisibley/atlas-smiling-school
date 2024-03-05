@@ -120,6 +120,126 @@
       <a href="#de" class="rightarr" data-slide="next"><img src="images/arrow_white_right.png" alt="Right arrow"></a>
       </div>
     </section>
+    <!--use Bootstrap Card to re-write -->
+    <!-- videos list section -->
+    <section class="videos">
+      <div class="d-flex justify-content-center">
+        <div>
+          <h1>Most <span>popular</span> tutorials</h1>
+        </div>
+        <div class="container-lg p-5">
+          <div class="row row-cols-sm-3">
+            <!--Diagonal Smile card-->
+            <div class="col-sm mt-4">
+              <div class="card" style="width: 16rem;">
+                <div id="play-btn1" style="background-image: url(./images/tutor1.png);">
+                  <img src="./images/play.svg" alt="play button">
+                </div>
+                <div class="card-body">
+                  <h2 class="card-title font-weight-bold">Diagonal Smile</h2>
+                  <p class="card-text text-muted">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                  <div class="author">
+                    <div class="row">
+                      <div class="col">
+                        <img src="./images/Phillip.png" alt="Phillip Massey" class="rounded-circle" width="80" height="80">
+                      </div>
+                      <div class="col">Phillip Massey</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="rating">
+                <div>
+                  <img src="./images/rating.svg" alt="rating stars">
+                  <!-- <img src="#" alt="image">IMAGE
+                  <img src="#" alt="image">IMAGE
+                  <img src="#" alt="image">IMAGE
+                  <img src="#" alt="image">IMAGE -->
+                </div>
+                <div>
+                  <p>8 min</p>
+                </div>
+              </div>
+            </div>
+          <!--Sad Smile card-->
+        <div class="video-div">
+          <div id="play-btn2" style="background-image: url(./images/tutor2.png);">
+            <img src="./images/play.svg" alt="play button">
+          </div>
+          <h2 class="bold">Sad Smile</h2>
+          <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+          <!-- a block for the author -->
+          <div id="smallImage">
+            <img src="./images/Phillip.png" alt="Phillip Massey">
+            <h3>Phillip Massey</h3>
+          </div>
+          <!-- a block for the rating -->
+          <div class="rating">
+            <div>
+              <img src="./images/rating.svg" alt="rating stars">
+              <!-- <img src="#" alt="image">IMAGE
+              <img src="#" alt="image">IMAGE
+              <img src="#" alt="image">IMAGE
+              <img src="#" alt="image">IMAGE -->
+            </div>
+            <div>
+              <p>8 min</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-div">
+          <div id="play-btn3" style="background-image: url(./images/tutor3.png);">
+            <img src="./images/play.svg" alt="play button">
+          </div>
+          <h2 class="bold">Natural Smile</h2>
+          <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+          <!-- a block for the author -->
+          <div id="smallImage">
+            <img src="./images/Phillip.png" alt="Phillip Massey">
+            <h3>Phillip Massey</h3>
+          </div>
+          <!-- a block for the rating -->
+          <div class="rating">
+            <div>
+              <img src="./images/rating.svg" alt="rating stars">
+              <!-- <img src="#" alt="image">IMAGE
+              <img src="#" alt="image">IMAGE
+              <img src="#" alt="image">IMAGE
+              <img src="#" alt="image">IMAGE -->
+            </div>
+            <div>
+              <p>8 min</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-div">
+          <div id="play-btn4" style="background-image: url(./images/tutor4.png);">
+            <img src="./images/play.svg" alt="play button">
+          </div>
+          <h2 class="bold">Happy Smile</h2>
+          <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+          <!-- a block for the author -->
+          <div id="smallImage">
+            <img src="./images/Phillip.png" alt="Phillip Massey">
+            <h3>Phillip Massey</h3>
+          </div>
+          <!-- a block for the rating -->
+          <div class="rating">
+            <div>
+              <img src="./images/rating.svg" alt="rating stars">
+              <!-- <img src="#" alt="image">IMAGE
+              <img src="#" alt="image">IMAGE
+              <img src="#" alt="image">IMAGE
+              <img src="#" alt="image">IMAGE -->
+            </div>
+            <div>
+              <p>8 min</p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
   </main>
-  </body>
+    </body>
 </html>
