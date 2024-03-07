@@ -406,7 +406,7 @@
     text-decoration: none;
   }
   
-  /* PRICING PAGE */
+  /* Pricing section */
   
   .pricing-section {
     background-image: url(images/pic_2.jpg);
@@ -415,23 +415,23 @@
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
-    color: var(--color-white);
+    color: var(--white);
   }
   
   .pricing-section .navbar1 {
-    background-color: var(--color-white);
+    background-color: var(--white);
     height: var(--tiny);
     width: var(--ml);
     display: block;
   }
   .pricing-section .navbar2 {
-    background-color: var(--color-white);
+    background-color: var(--white);
     height: var(--tiny);
     width: var(--smedium);
     display: block;
   }
   .pricing-section .navbar3 {
-    background-color: var(--color-white);
+    background-color: var(--white);
     height: var(--tiny);
     width: var(--mm);
     display: block;
@@ -444,7 +444,7 @@
   .pricing-section .nav-link:after {
     content: "";
     display: block;
-    background-color: var(--color-white);
+    background-color: var(--white);
     width: 0;
     height: var(--tiny);
     top: 4px;
@@ -490,47 +490,47 @@
     }
   }
   
-  /* COURSES PAGE */
+  /* Courses */
   
-  .hero-courses-section {
+  .courses-section {
     background-image: url(images/pic_3.jpg);
     text-align: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
-    color: var(--color-white);
+    color: var(--white);
   }
   
-  .hero-courses-section .navbar-line1 {
-    background-color: var(--color-white);
-    height: var(--nav-line-height);
-    width: 20px;
+  .courses-section .navbar-line1 {
+    background-color: var(--white);
+    height: var(--tiny);
+    width: var(--ml);
     display: block;
   }
-  .hero-courses-section .navbar-line2 {
-    background-color: var(--color-white);
+  .courses-section .navbar-line2 {
+    background-color: var(--white);
     height: var(--nav-line-height);
-    width: 13px;
+    width: var(--smedium);
     display: block;
   }
-  .hero-courses-section .navbar-line3 {
-    background-color: var(--color-white);
-    height: var(--nav-line-height);
-    width: 18px;
+  .courses-section .navbar-line3 {
+    background-color: var(--white);
+    height: var(--tiny);
+    width: var(--mm);
     display: block;
   }
   
-  .hero-courses-section .nav-link {
-    font-size: 12px;
+  .courses-section .nav-link {
+    font-size: var(--small);
   }
   
-  .hero-courses-section .nav-link:after {
+  .courses-section .nav-link:after {
     content: "";
     display: block;
-    background-color: var(--color-white);
+    background-color: var(--white);
     width: 0;
-    height: 2px;
+    height: var(--tiny);
     top: 4px;
     position: relative;
     transition: 180ms;
@@ -541,7 +541,7 @@
   }
   
   .searcher {
-    background-color: #c271ff;
+    background-color: var(--purp);
   }
   
   .searcher p {
@@ -609,8 +609,6 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
-  
-  
   
   .holberton_school-icon-ic_instagram:before {content: "\e90a";}
   .holberton_school-icon-ic_facebook:before {content: "\e908";}
