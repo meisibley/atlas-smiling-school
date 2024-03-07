@@ -1,6 +1,7 @@
 :root {
     --purp: #C271FF;
     --white: #FFF;
+    --blac: #071629;
     --tiny: 2px;
     --small: 12px;
     --smedium: 13px;
@@ -463,7 +464,7 @@
   /* faq section */
   
   .faq-section {
-    color: #071629;
+    color: var(--blac);
   }
   
   .faq-title {
@@ -476,7 +477,6 @@
   
   .faq-info {
     color: rgba(7, 22, 41, 0.501584);
-    /*padding-right: 8rem;*/
   }
   
   @media screen and (min-width: 769px) {
