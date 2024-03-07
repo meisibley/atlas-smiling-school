@@ -1,6 +1,6 @@
 :root {
   --white: #FFF;
-  --purple: #C271FF;
+  --purp: #C271FF;
   --tiny: 2px;
   --small: 12px;
   --smedium: 13px;
@@ -141,15 +141,15 @@ header nav {
   height: 874px;
 }
 
-span {
-  color: #C271FF;
+.banner span {
+  color: var(--purp);
   font-weight: 700;
   font-family: regularFont;
 }
 
 button {
   color: var(--white);
-  background: var(--purple);
+  background: var(--purp);
   border-radius: 25px;
   font-family: regularFont;
   font-size: var(--ms);
@@ -247,6 +247,10 @@ button {
   background: #FFF;
   box-shadow: 0px 2px 4px 0px rgba(7, 22, 41, 0.18);
   z-index: 1;
+}
+
+.videos span {
+  color: var(--purp);
 }
 
 #play-btn1 {
@@ -348,7 +352,7 @@ button {
 }
 
 #smallImage h3 {
-  color: #C271FF;
+  color: var(--purp);
   font-family: regularFont;
   font-size: 14px;
   font-style: normal;
@@ -370,7 +374,7 @@ button {
 }
 
 .rating p {
-  color: #C271FF;
+  color: var(--purp);
   text-align: right;
   font-family: lightFont;
   font-size: 14px;
@@ -388,6 +392,10 @@ button {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+}
+
+.member span {
+  color: var(--purp);
 }
 
 .member h1 {

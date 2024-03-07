@@ -1,5 +1,5 @@
 :root {
-    --purple: #c271ff;
+    --purp: #C271FF;
     --white: #FFF;
     --tiny: 2px;
     --small: 12px;
@@ -36,7 +36,7 @@
   }
   
   .main-color {
-    color: var(--purple);
+    color: var(--purp);
   }
   
   .section-header h2 {
@@ -99,7 +99,7 @@
   }
   
   .pricing-hero-section .navbar-nav li:nth-child(2) a {
-    color: var(--purple) !important;
+    color: var(--purp) !important;
   }
   
   .pricing-hero-section .navbar-nav li:nth-child(2) a:after {
@@ -107,7 +107,7 @@
   }
   
   .courses-hero-section .navbar-nav li:nth-child(1) a {
-    color: var(--purple) !important;
+    color: var(--purp) !important;
   }
   
   .courses-hero-section .navbar-nav li:nth-child(1) a:after {
@@ -129,7 +129,7 @@
   }
   
   .btn.btn-smile {
-    background-color: var(--purple);
+    background-color: var(--purp);
     width: 162px;
     height: 44px;
     font-size: 14px;
@@ -142,8 +142,9 @@
     margin-top: 168px;
     margin-bottom: 0;
   }
+
   .hero-learn span {
-    color: var(--purple);
+    color: var(--purp);
   }
   
   .pro h3 {
@@ -205,7 +206,7 @@
   
   .quotes-section {
     height: 392px;
-    background-color: var(--purple);
+    background-color: var(--purp);
   }
   
   .quotes-section .carousel-item img {
